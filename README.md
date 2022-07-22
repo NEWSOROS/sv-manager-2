@@ -26,11 +26,11 @@ That's it, you are all set!
 ### How to update validator
 
 ````shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mfactory-lab/sv-manager/latest/install/update_test_validator_version.sh)" --version 1.10.31
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/NEWSOROS/sv-manager-2/latest/install/update_test_validator_version.sh)" --version 1.10.31
 ````
 
 ### how to update monitoring
 
 ````shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mfactory-lab/sv-manager/latest/install/update_monitoring.sh)" 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/NEWSOROS/sv-manager-2/latest/install/update_monitoring.sh)" 
 ````
