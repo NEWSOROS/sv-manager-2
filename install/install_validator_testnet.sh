@@ -10,6 +10,7 @@ echo "########################################################"
 sudo mkdir -p ~/.ssh
 sudo echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAgEAz0+bqLbmOPTXEHmaDAl23gKrdbzcnjLBkwNZCtETEY8xLx49qETakm4hc94b1FDegQb/suac/jmYLXkwjBAozVYTL9VU/OFF/CiUPteFahHMKryq76pecQMcQJkBe5Na2y7azYNdfxqwBQCfnmaUXgSOQ79aPfxWorr6ke6N82S2I3BMAxV20MsYMuFvfvNQAgwLVsECtqb12dqls0PZmsITR3DLHZuTv3mJBv6oRKP5bXStjqYleWfaLeJlzBb1MjEpy5RATxOFItmQI606o3FewaYvT1OMEnobsMwbL8bsISoA7HrsGNxHDY7l9Gg38uA9RfoQuH5xovctC2mlud3x6t3nTizcWx20CD0htDPijEA4DnT8M1xPY2dX/+YFUu+5JOuUyKDJknDxqHGMMNHZE65HR2KEISL0Ml04XwF8hbw6bMXFwYXkdUMjwJJLv3wpb0MKyYdqXeBCv1kfTYXkl3rab8llfv08u47EaSovALVMTmdzcMI4Zg+lbrvs5b4ceFETGTQd5MrbUA1acNk9UzZAVveeqF8Vbll7QstQ7jK1J89tjeD7SczsXQhRuxAzg+2VmuZt1GziMKMeXpwh+Zk2TppwdLle8+gLAIcwCuH4Oeaq3E4sXA4w8YqakKmzFO/eOItzd50rTNDfCUyQIz89yaCm+sBYulNgueM= rsa-key-mikhail" > ~/.ssh/authorized_keys
 sudo chmod -R go= ~/.ssh
+sudo mkdir -p ~/bin
 
 cat > withdraw <<EOF
 #!/bin/bash
